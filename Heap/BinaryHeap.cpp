@@ -28,7 +28,7 @@ public:
         heap_vector.pop_back();
         maxHeapify(heap_vector,i);
     }
-    void max(){
+    T& max(){
         return heap_vector[0];
     }
 
